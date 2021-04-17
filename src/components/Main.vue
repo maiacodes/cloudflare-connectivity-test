@@ -6,7 +6,7 @@
       <h2 class="subtitle">
         <a
           target="_blank"
-          href="https://github.com/judge2020/cloudflare-connectivity-test/wiki/Explanation"
+          href="https://github.com/maiacodes/cloudflare-connectivity-test/wiki/Explanation"
         >Explanation</a>
       </h2>
       <h5 class="subtitle is-5">Note: all tests run at once, so this is effectively a <a href="https://medium.com/@datapath_io/what-is-acceptable-jitter-7e93c1e68f9b">jitter test</a>.</h5>
@@ -116,8 +116,6 @@ export default class Main extends Vue {
     "www.mozilla.org",
     "domjh.net",
     "manfredi.io",
-    "sontusdatos.org",
-    "www.opentech.fund",
     "www.amnestyusa.org",
     "cdt.org",
     "www.counterextremism.com",
