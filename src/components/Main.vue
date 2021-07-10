@@ -56,16 +56,6 @@
         <div class="container">
           <h1 class="title"></h1>
           <h2 class="subtitle">Note: the plan these websites are on is an educated guess.</h2>
-          <p>
-            Pro websites were taken from the
-            <a
-              href="https://developers.cloudflare.com/sponsorships/"
-            >Open Source sponsorships page</a>, Business from the
-            <a href="https://www.cloudflare.com/galileo/">Project Galileo page</a>, and Enterprise from the
-            <a
-              href="https://www.cloudflare.com/case-studies/"
-            >Case Studies page</a>.
-          </p>
         </div>
       </div>
     </section>
@@ -99,12 +89,7 @@ export default class Main extends Vue {
   ];
   enterprise = [
     "cloudflare.com",
-    "discord.com",
-    "medium.com",
-    "www.zendesk.com",
-    "www.digitalocean.com",
-    "quizlet.com",
-    "i.gyazo.com"
+    "discord.com"
   ];
   mounted() {
     this.preloadAirports().then(() => {
