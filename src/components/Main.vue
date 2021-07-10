@@ -1,14 +1,7 @@
 <template>
   <div class="main-content">
     <div class="container has-text-centered">
-      <h1 class="title">Cloudflare datacenter reachability</h1>
-
-      <h2 class="subtitle">
-        <a
-          target="_blank"
-          href="https://github.com/maiacodes/cloudflare-connectivity-test/wiki/Explanation"
-        >Explanation</a>
-      </h2>
+      <h1 class="title">Cloudflare Datacenter Test by Maia</h1>
       <h5 class="subtitle is-5">Note: all tests run at once, so this is effectively a <a href="https://medium.com/@datapath_io/what-is-acceptable-jitter-7e93c1e68f9b">jitter test</a>.</h5>
       <p class="subtitle">Test your website:</p>
       <form @submit.prevent="loadTestHostname(testHostname)">
