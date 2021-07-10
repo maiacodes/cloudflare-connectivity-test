@@ -94,51 +94,23 @@ export default class Main extends Vue {
   preloaded = false;
   iata = [];
   free = [
-    "judge2020.com",
-    "digital.com",
-    "firing.it",
-    "www.shoutmeloud.com",
-    "judge2020.me",
-    "cloudeereviews.com",
-    "clash.lol"
+    "maia.codes",
+    "honeybankstudios.com"
   ];
   pro = [
-    "js.org",
-    "git-scm.com",
-    "nodejs.org",
-    "cdnjs.com",
-    "getbootstrap.com",
-    "html5boilerplate.com",
-    "d3js.org"
+    "tweetshift.com",
+    "vle.mathswatch.co.uk",
   ];
   business = [
-    "cloudflare-test-target.judge.sh",
-    "www.mozilla.org",
-    "domjh.net",
-    "manfredi.io",
-    "www.amnestyusa.org",
-    "cdt.org",
-    "www.counterextremism.com",
-    "www.ndi.org",
-    "www.findlaw.com",
-    "www.codeguard.com",
-    "www.techagainstterrorism.org",
-    "www.thetrevorproject.org"
+    "novecore.com",
   ];
   enterprise = [
     "cloudflare.com",
-    "cdnjs.cloudflare.com",
+    "discord.com",
     "medium.com",
-    "discordapp.com",
     "www.zendesk.com",
-    "ghost.io",
-    "unpkg.com",
-    "www.loc.gov",
-    "www.artstation.com",
     "www.digitalocean.com",
     "quizlet.com",
-    "corporateclash.net",
-    "domjh.com",
     "i.gyazo.com"
   ];
   mounted() {
