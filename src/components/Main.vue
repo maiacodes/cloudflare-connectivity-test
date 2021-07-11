@@ -86,6 +86,7 @@ export default class Main extends Vue {
   ];
   business = [
     "novecore.com",
+    "9anime.to"
   ];
   enterprise = [
     "cloudflare.com",
